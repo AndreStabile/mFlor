@@ -1,0 +1,436 @@
+/** Espaçamentos predefinidos **/
+$spacing: 1rem;
+
+// 1. Padding
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-1 {
+  padding: 0.25 * $spacing !important;
+}
+
+.p-2 {
+  padding: 0.5 * $spacing !important;
+}
+
+.p-3 {
+  padding: $spacing !important;
+}
+
+.p-4 {
+  padding: 1.5 * $spacing !important;
+}
+
+.p-5 {
+  padding: 3 * $spacing !important;
+}
+
+.p-auto {
+  padding: auto !important;
+}
+
+// 1.2 - Padding Top
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pt-1 {
+  padding-top: 0.25 * $spacing !important;
+}
+
+.pt-2 {
+  padding-top: 0.5 * $spacing !important;
+}
+
+.pt-3 {
+  padding-top: $spacing !important;
+}
+
+.pt-4 {
+  padding-top: 1.5 * $spacing !important;
+}
+
+.pt-5 {
+  padding-top: 3 * $spacing !important;
+}
+
+.pt-auto {
+  padding-top: auto !important;
+}
+
+// 1.3 - Padding Right
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+.pr-1 {
+  padding-right: 0.25 * $spacing !important;
+}
+
+.pr-2 {
+  padding-right: 0.5 * $spacing !important;
+}
+
+.pr-3 {
+  padding-right: $spacing !important;
+}
+
+.pr-4 {
+  padding-right: 1.5 * $spacing !important;
+}
+
+.pr-5 {
+  padding-right: 3 * $spacing !important;
+}
+
+.pr-auto {
+  padding-right: auto !important;
+}
+
+// 1.4 - Padding Bottom
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pb-1 {
+  padding-bottom: 0.25 * $spacing !important;
+}
+
+.pb-2 {
+  padding-bottom: 0.5 * $spacing !important;
+}
+
+.pb-3 {
+  padding-bottom: $spacing !important;
+}
+
+.pb-4 {
+  padding-bottom: 1.5 * $spacing !important;
+}
+
+.pb-5 {
+  padding-bottom: 3 * $spacing !important;
+}
+
+.pb-auto {
+  padding-bottom: auto !important;
+}
+
+// 1.5 - Padding Left
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.pl-1 {
+  padding-left: 0.25 * $spacing !important;
+}
+
+.pl-2 {
+  padding-left: 0.5 * $spacing !important;
+}
+
+.pl-3 {
+  padding-left: $spacing !important;
+}
+
+.pl-4 {
+  padding-left: 1.5 * $spacing !important;
+}
+
+.pl-5 {
+  padding-left: 3 * $spacing !important;
+}
+
+.pl-auto {
+  padding-left: auto !important;
+}
+
+// 1.6 - Padding Vertical
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.py-1 {
+  padding-top: 0.25 * $spacing !important;
+  padding-bottom: 0.25 * $spacing !important;
+}
+
+.py-2 {
+  padding-top: 0.5 * $spacing !important;
+  padding-bottom: 0.5 * $spacing !important;
+}
+
+.py-3 {
+  padding-top: $spacing !important;
+  padding-bottom: $spacing !important;
+}
+
+.py-4 {
+  padding-top: 1.5 * $spacing !important;
+  padding-bottom: 1.5 * $spacing !important;
+}
+
+.py-5 {
+  padding-top: 3 * $spacing !important;
+  padding-bottom: 3 * $spacing !important;
+}
+
+.py-auto {
+  padding-top: auto !important;
+  padding-bottom: auto !important;
+}
+
+// 1.7 - Padding Horizontal
+.px-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.px-1 {
+  padding-right: 0.25 * $spacing !important;
+  padding-left: 0.25 * $spacing !important;
+}
+
+.px-2 {
+  padding-right: 0.5 * $spacing !important;
+  padding-left: 0.5 * $spacing !important;
+}
+
+.px-3 {
+  padding-right: $spacing !important;
+  padding-left: $spacing !important;
+}
+
+.px-4 {
+  padding-right: 1.5 * $spacing !important;
+  padding-left: 1.5 * $spacing !important;
+}
+
+.px-5 {
+  padding-right: 3 * $spacing !important;
+  padding-left: 3 * $spacing !important;
+}
+
+.px-auto {
+  padding-right: auto !important;
+  padding-left: auto !important;
+}
+
+// 2. Margin
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-1 {
+  margin: 0.25 * $spacing !important;
+}
+
+.m-2 {
+  margin: 0.5 * $spacing !important;
+}
+
+.m-3 {
+  margin: $spacing !important;
+}
+
+.m-4 {
+  margin: 1.5 * $spacing !important;
+}
+
+.m-5 {
+  margin: 3 * $spacing !important;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+// 1.2 - Margin Top
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 0.25 * $spacing !important;
+}
+
+.mt-2 {
+  margin-top: 0.5 * $spacing !important;
+}
+
+.mt-3 {
+  margin-top: $spacing !important;
+}
+
+.mt-4 {
+  margin-top: 1.5 * $spacing !important;
+}
+
+.mt-5 {
+  margin-top: 3 * $spacing !important;
+}
+
+.mt-auto {
+  margin-top: auto !important;
+}
+
+// 1.3 - Margin Right
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mr-1 {
+  margin-right: 0.25 * $spacing !important;
+}
+
+.mr-2 {
+  margin-right: 0.5 * $spacing !important;
+}
+
+.mr-3 {
+  margin-right: $spacing !important;
+}
+
+.mr-4 {
+  margin-right: 1.5 * $spacing !important;
+}
+
+.mr-5 {
+  margin-right: 3 * $spacing !important;
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+// 1.4 - Margin Bottom
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25 * $spacing !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5 * $spacing !important;
+}
+
+.mb-3 {
+  margin-bottom: $spacing !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5 * $spacing !important;
+}
+
+.mb-5 {
+  margin-bottom: 3 * $spacing !important;
+}
+
+.mb-auto {
+  margin-bottom: auto !important;
+}
+
+// 1.5 - Margin Left
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.ml-1 {
+  margin-left: 0.25 * $spacing !important;
+}
+
+.ml-2 {
+  margin-left: 0.5 * $spacing !important;
+}
+
+.ml-3 {
+  margin-left: $spacing !important;
+}
+
+.ml-4 {
+  margin-left: 1.5 * $spacing !important;
+}
+
+.ml-5 {
+  margin-left: 3 * $spacing !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+// 2.6 - Margin Vertical
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.my-1 {
+  margin-top: 0.25 * $spacing !important;
+  margin-bottom: 0.25 * $spacing !important;
+}
+
+.my-2 {
+  margin-top: 0.5 * $spacing !important;
+  margin-bottom: 0.5 * $spacing !important;
+}
+
+.my-3 {
+  margin-top: $spacing !important;
+  margin-bottom: $spacing !important;
+}
+
+.my-4 {
+  margin-top: 1.5 * $spacing !important;
+  margin-bottom: 1.5 * $spacing !important;
+}
+
+.my-5 {
+  margin-top: 3 * $spacing !important;
+  margin-bottom: 3 * $spacing !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+// 2.7 - Margin Horizontal
+.mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.mx-1 {
+  margin-right: 0.25 * $spacing !important;
+  margin-left: 0.25 * $spacing !important;
+}
+
+.mx-2 {
+  margin-right: 0.5 * $spacing !important;
+  margin-left: 0.5 * $spacing !important;
+}
+
+.mx-3 {
+  margin-right: $spacing !important;
+  margin-left: $spacing !important;
+}
+
+.mx-4 {
+  margin-right: 1.5 * $spacing !important;
+  margin-left: 1.5 * $spacing !important;
+}
+
+.mx-5 {
+  margin-right: 3 * $spacing !important;
+  margin-left: 3 * $spacing !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
