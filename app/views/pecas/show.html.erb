@@ -1,0 +1,38 @@
+<nav class="orange lighten-1" role="navigation">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">Maria Flor</a>
+    <ul class="left">
+      <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title"><%= @peca.title %></span>
+            <div class="">
+              <strong>Text:</strong>
+              <%= @peca.text %>
+            </div>
+          </div>
+          <div class="card-action right-align">
+            <%= link_to 'Back', pecas_path, :class => "btn btn-flat" %>
+            <%= link_to 'Edit', edit_peca_path(@peca), :class => "btn" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</main>
+
+<footer class="page-footer orange lighten-1">
+  <div class="container py-3">
+    <span class="white-text left">Maria Flor </span>
+    <span class="white-text">&nbsp</span>
+    <span class="white-text right">Todos os direitos reservados</span>
+  </div>
+</footer>
